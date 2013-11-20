@@ -11,7 +11,7 @@ foreach($result as $row){
     $ret2= intval( $row['ask']);
 }
 
-$tot = array($ret,$ret2);
+$tot[] = array($ret,$ret2);
 
 echo json_encode($tot);
 ?>
