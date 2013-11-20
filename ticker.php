@@ -11,10 +11,16 @@
 	$tickers = $conn->prepare($query);
 	$tickers->execute();
 
-	echo "[";
-		while($ticker = $tickers->fetch()) {
-			echo "[".$ticker['r_timestamp_unix'].",".$ticker['ask']."],";
-		}
-	echo "]);";
+	//echo "[";
+	//	while($ticker = $tickers->fetch()) {
+	//		echo "[".$ticker['r_timestamp_unix'].",".$ticker['ask']."],";
+	//	}
+	//echo "]);";
+
+	while($ticker = $tickers->fetch()) {
+		$response[] = 'hello',
+	}
+
+	echo json_encode($response);
 
 ?>
