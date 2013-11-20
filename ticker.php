@@ -1,5 +1,6 @@
 <?php 
 // Set the JSON header
+header('Access-Control-Allow-Origin: *');
 header("Content-type: text/json");
 
 include($_SERVER['DOCUMENT_ROOT'] .'/config/database.php');
