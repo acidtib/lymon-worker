@@ -12,7 +12,9 @@
 	$tickers->execute();
 
 	while($ticker = $tickers->fetch()) {
-		echo "[1147651200000,67.79],";
+		$response[] = array(
+				$row['ask']
+			);
 	}
 
 	echo json_encode($response);
