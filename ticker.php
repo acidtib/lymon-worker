@@ -1,17 +1,23 @@
 <?php 
-// Set the JSON header
-header('Access-Control-Allow-Origin: *');
-header("Content-type: text/json");
 
-include($_SERVER['DOCUMENT_ROOT'] .'/config/database.php');
+	header('Access-Control-Allow-Origin: *');
+	header('Content-type: application/json;');
 
-$result = $conn->query('SELECT * FROM USD ORDER BY id DESC');
-foreach($result as $row){
-    $ret = intval( $row['r_timestamp_unix']);
-    $ret2= intval( $row['ask']);
-}
+	include($_SERVER['DOCUMENT_ROOT'] .'/config/database.php');
 
-$tot[] = array($ret,$ret2);
+	$currency = $_GET['currency'];
 
-echo json_encode($tot);
+	$query = "SELECT * FROM ".$currency." ORDER BY l_timestamp DESC";
+	$tickers = $conn->prepare($query);
+	$tickers->execute();
+
+	while($ticker = $tickers->fetch()) {
+		$response[] = array(
+				$row['ask']
+			);
+	}
+
+	echo json_encode($response);
+
+
 ?>
