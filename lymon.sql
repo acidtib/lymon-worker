@@ -7,8 +7,9 @@ CREATE TABLE `AUD` (
   `total_vol` varchar(255) DEFAULT NULL,
   `r_timestamp` varchar(255) DEFAULT NULL,
   `l_timestamp` timestamp NULL DEFAULT NULL,
+  `r_timestamp_unix` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- Create syntax for TABLE 'BRL'
 CREATE TABLE `BRL` (
@@ -19,8 +20,9 @@ CREATE TABLE `BRL` (
   `total_vol` varchar(255) DEFAULT NULL,
   `r_timestamp` varchar(255) DEFAULT NULL,
   `l_timestamp` timestamp NULL DEFAULT NULL,
+  `r_timestamp_unix` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- Create syntax for TABLE 'CAD'
 CREATE TABLE `CAD` (
@@ -31,8 +33,9 @@ CREATE TABLE `CAD` (
   `total_vol` varchar(255) DEFAULT NULL,
   `r_timestamp` varchar(255) DEFAULT NULL,
   `l_timestamp` timestamp NULL DEFAULT NULL,
+  `r_timestamp_unix` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- Create syntax for TABLE 'CNY'
 CREATE TABLE `CNY` (
@@ -43,8 +46,9 @@ CREATE TABLE `CNY` (
   `total_vol` varchar(255) DEFAULT NULL,
   `r_timestamp` varchar(255) DEFAULT NULL,
   `l_timestamp` timestamp NULL DEFAULT NULL,
+  `r_timestamp_unix` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- Create syntax for TABLE 'CZK'
 CREATE TABLE `CZK` (
@@ -55,8 +59,9 @@ CREATE TABLE `CZK` (
   `total_vol` varchar(255) DEFAULT NULL,
   `r_timestamp` varchar(255) DEFAULT NULL,
   `l_timestamp` timestamp NULL DEFAULT NULL,
+  `r_timestamp_unix` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- Create syntax for TABLE 'EUR'
 CREATE TABLE `EUR` (
@@ -67,8 +72,9 @@ CREATE TABLE `EUR` (
   `total_vol` varchar(255) DEFAULT NULL,
   `r_timestamp` varchar(255) DEFAULT NULL,
   `l_timestamp` timestamp NULL DEFAULT NULL,
+  `r_timestamp_unix` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- Create syntax for TABLE 'GBP'
 CREATE TABLE `GBP` (
@@ -79,8 +85,9 @@ CREATE TABLE `GBP` (
   `total_vol` varchar(255) DEFAULT NULL,
   `r_timestamp` varchar(255) DEFAULT NULL,
   `l_timestamp` timestamp NULL DEFAULT NULL,
+  `r_timestamp_unix` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- Create syntax for TABLE 'ILS'
 CREATE TABLE `ILS` (
@@ -91,8 +98,9 @@ CREATE TABLE `ILS` (
   `total_vol` varchar(255) DEFAULT NULL,
   `r_timestamp` varchar(255) DEFAULT NULL,
   `l_timestamp` timestamp NULL DEFAULT NULL,
+  `r_timestamp_unix` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- Create syntax for TABLE 'JPY'
 CREATE TABLE `JPY` (
@@ -103,8 +111,9 @@ CREATE TABLE `JPY` (
   `total_vol` varchar(255) DEFAULT NULL,
   `r_timestamp` varchar(255) DEFAULT NULL,
   `l_timestamp` timestamp NULL DEFAULT NULL,
+  `r_timestamp_unix` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- Create syntax for TABLE 'NOK'
 CREATE TABLE `NOK` (
@@ -115,8 +124,9 @@ CREATE TABLE `NOK` (
   `total_vol` varchar(255) DEFAULT NULL,
   `r_timestamp` varchar(255) DEFAULT NULL,
   `l_timestamp` timestamp NULL DEFAULT NULL,
+  `r_timestamp_unix` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- Create syntax for TABLE 'NZD'
 CREATE TABLE `NZD` (
@@ -127,8 +137,9 @@ CREATE TABLE `NZD` (
   `total_vol` varchar(255) DEFAULT NULL,
   `r_timestamp` varchar(255) DEFAULT NULL,
   `l_timestamp` timestamp NULL DEFAULT NULL,
+  `r_timestamp_unix` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- Create syntax for TABLE 'PLN'
 CREATE TABLE `PLN` (
@@ -139,8 +150,9 @@ CREATE TABLE `PLN` (
   `total_vol` varchar(255) DEFAULT NULL,
   `r_timestamp` varchar(255) DEFAULT NULL,
   `l_timestamp` timestamp NULL DEFAULT NULL,
+  `r_timestamp_unix` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- Create syntax for TABLE 'RUB'
 CREATE TABLE `RUB` (
@@ -151,8 +163,9 @@ CREATE TABLE `RUB` (
   `total_vol` varchar(255) DEFAULT NULL,
   `r_timestamp` varchar(255) DEFAULT NULL,
   `l_timestamp` timestamp NULL DEFAULT NULL,
+  `r_timestamp_unix` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- Create syntax for TABLE 'SEK'
 CREATE TABLE `SEK` (
@@ -163,8 +176,9 @@ CREATE TABLE `SEK` (
   `total_vol` varchar(255) DEFAULT NULL,
   `r_timestamp` varchar(255) DEFAULT NULL,
   `l_timestamp` timestamp NULL DEFAULT NULL,
+  `r_timestamp_unix` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- Create syntax for TABLE 'SGD'
 CREATE TABLE `SGD` (
@@ -175,8 +189,9 @@ CREATE TABLE `SGD` (
   `total_vol` varchar(255) DEFAULT NULL,
   `r_timestamp` varchar(255) DEFAULT NULL,
   `l_timestamp` timestamp NULL DEFAULT NULL,
+  `r_timestamp_unix` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- Create syntax for TABLE 'USD'
 CREATE TABLE `USD` (
@@ -187,8 +202,9 @@ CREATE TABLE `USD` (
   `total_vol` varchar(255) DEFAULT NULL,
   `r_timestamp` varchar(255) DEFAULT NULL,
   `l_timestamp` timestamp NULL DEFAULT NULL,
+  `r_timestamp_unix` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- Create syntax for TABLE 'ZAR'
 CREATE TABLE `ZAR` (
@@ -199,5 +215,6 @@ CREATE TABLE `ZAR` (
   `total_vol` varchar(255) DEFAULT NULL,
   `r_timestamp` varchar(255) DEFAULT NULL,
   `l_timestamp` timestamp NULL DEFAULT NULL,
+  `r_timestamp_unix` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
