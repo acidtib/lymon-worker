@@ -11,8 +11,10 @@
 	$tickers = $conn->prepare($query);
 	$tickers->execute();
 
-	while($ticker = $tickers->fetch()) {
-		echo "[".$ticker['r_timestamp_unix'].",".$ticker['ask']."],";
-	}
+	echo "[";
+		while($ticker = $tickers->fetch()) {
+			echo "[".$ticker['r_timestamp_unix'].",".$ticker['ask']."],";
+		}
+	echo "]);";
 
 ?>
