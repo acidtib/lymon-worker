@@ -18,7 +18,7 @@
 	//echo "]);";
 
 	while($ticker = $tickers->fetch()) {
-		$response[] = 'hello',
+		$response[] = 'hello';
 	}
 
 	echo json_encode($response);
