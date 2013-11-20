@@ -12,12 +12,7 @@
 	$tickers->execute();
 
 	while($ticker = $tickers->fetch()) {
-		$response[] = array(
-				$row['ask']
-			);
+		echo "[".$ticker['r_timestamp_unix'].",".$ticker['ask']."],";
 	}
-
-	echo json_encode($response);
-
 
 ?>
